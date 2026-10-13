@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Navy rounded square background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="200" ry="200" fill="#0B2545" />
+
+  <!-- Shield path -->
+  <path
+    d="M512 130 L765 222 V410 C765 515 655 585 512 648 C369 585 259 515 259 410 V222 Z"
+    fill="#13315C"
+    stroke="#FF9933"
+    stroke-width="16"
+  />
+
+  <!-- White strokes (scales of justice pillar and beams) -->
+  <line x1="512" y1="235" x2="512" y2="500" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+  <line x1="400" y1="290" x2="624" y2="290" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+  <line x1="400" y1="290" x2="352" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+  <line x1="400" y1="290" x2="448" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+  <line x1="624" y1="290" x2="576" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+  <line x1="624" y1="290" x2="672" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+  <line x1="440" y1="505" x2="584" y2="505" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Saffron circle at fulcrum -->
+  <circle cx="512" cy="225" r="18" fill="#FF9933" />
+
+  <!-- Saffron scale pans -->
+  <path d="M340 385 H460 A60 48 0 0 1 340 385 Z" fill="#FF9933" />
+  <path d="M564 385 H684 A60 48 0 0 1 564 385 Z" fill="#FF9933" />
+
+  <!-- Subtle bottom emblem banner -->
+  <rect x="256" y="760" width="512" height="40" rx="20" fill="#13315C" stroke="#FF9933" stroke-width="6" />
+  <line x1="300" y1="780" x2="724" y2="780" stroke="#138808" stroke-width="10" stroke-linecap="round" />
+</svg>

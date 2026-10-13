@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #06152B;
+  --color-navy-900: #0B2545;
+  --color-navy-850: #0E2C52;
+  --color-navy-800: #133660;
+  --color-navy-750: #184172;
+  --color-navy-700: #1C4B82;
+  --color-navy-650: #205391;
+  --color-navy-600: #1B3F73;
+  --color-navy-500: #2E6EB8;
+  --color-navy-400: #4B89D4;
+  --color-navy-300: #77A9E5;
+  --color-navy-200: #A8CAF2;
+  --color-navy-100: #D6E6F9;
+  --color-navy-50: #EBF3FC;
+
+  --color-saffron: #FF9933;
+  --color-saffron-600: #E8851F;
+  --color-saffron-500: #FF9933;
+  --color-saffron-400: #FFAF5C;
+  --color-saffron-300: #FFC685;
+
+  --color-india-green: #138808;
+  --color-india-green-light: #28A745;
+  --color-india-green-600: #0E6606;
+
+  --color-ink: #FFFFFF;
+  --color-muted: #B8C4D6;
+  --color-danger: #E5484D;
+  --color-warning: #F5B301;
+
+  --font-sans: system-ui, "Noto Sans Devanagari", "Mukta", Arial, sans-serif;
+
+  --breakpoint-xs: 440px;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background-color: #0B2545;
+  color: #FFFFFF;
+  font-family: system-ui, "Noto Sans Devanagari", "Mukta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Safe area padding utilities */
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.safe-left {
+  padding-left: env(safe-area-inset-left, 0px);
+}
+.safe-right {
+  padding-right: env(safe-area-inset-right, 0px);
+}
+
+/* Custom text selection */
+::selection {
+  background-color: #FF9933;
+  color: #0B2545;
+}
+
+/* Focus-visible ring */
+*:focus-visible {
+  outline: 2px solid #FF9933;
+  outline-offset: 2px;
+}
+
+/* Thin custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B2545;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B3F73;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF9933;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High Contrast Mode */
+html.high-contrast {
+  --color-navy-900: #000000;
+  --color-navy-700: #0a1128;
+  --color-navy-600: #1c2541;
+  --color-muted: #F8FAFC;
+}
+
+html.high-contrast,
+html.high-contrast body {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+html.high-contrast button,
+html.high-contrast input,
+html.high-contrast select,
+html.high-contrast textarea,
+html.high-contrast [class*="border"] {
+  border-color: #FFFFFF !important;
+}
+
+html.high-contrast .text-muted {
+  color: #F1F5F9 !important;
+}
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Nyay Saathi - Offline</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #0B2545;
+      color: #FFFFFF;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans Devanagari", "Mukta", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      background-color: #13315C;
+      border: 1px solid rgba(255, 153, 51, 0.3);
+      border-radius: 1.25rem;
+      padding: 2rem 1.5rem;
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1.25rem;
+    }
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 153, 51, 0.2);
+      border: 1px solid #FF9933;
+      color: #FF9933;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #B8C4D6;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FF9933;
+      color: #0B2545;
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.75rem;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background-color 0.15s ease;
+      width: 100%;
+    }
+    .btn:hover {
+      background-color: #E8851F;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="logo" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="1024" height="1024" rx="200" fill="#0B2545"/>
+      <path d="M512 130 L765 222 V410 C765 515 655 585 512 648 C369 585 259 515 259 410 V222 Z" fill="#13315C" stroke="#FF9933" stroke-width="16"/>
+      <line x1="512" y1="235" x2="512" y2="500" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <line x1="400" y1="290" x2="624" y2="290" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <line x1="400" y1="290" x2="352" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <line x1="400" y1="290" x2="448" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <line x1="624" y1="290" x2="576" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <line x1="624" y1="290" x2="672" y2="385" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <line x1="440" y1="505" x2="584" y2="505" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="512" cy="225" r="18" fill="#FF9933"/>
+      <path d="M340 385 H460 A60 48 0 0 1 340 385 Z" fill="#FF9933"/>
+      <path d="M564 385 H684 A60 48 0 0 1 564 385 Z" fill="#FF9933"/>
+    </svg>
+    <div class="badge">OFFLINE MODE • ऑफलाइन मोड</div>
+    <h1>You are Offline / तुम्ही ऑफलाइन आहात</h1>
+    <p>Everything in Nyay Saathi continues to work offline. All FIRs, checklists, evidence hashes, and legal guides are safely stored on this phone.</p>
+    <p style="font-size: 0.8125rem; color: #94A3B8;">न्यायसाथीमधील सर्व साधने ऑफलाइन काम करतात. सर्व डेटा या फोनवर सुरक्षित आहे.</p>
+    <button class="btn" onclick="window.location.reload()">Reload Application / रीलोड करा</button>
+  </div>
+</body>
+</html>

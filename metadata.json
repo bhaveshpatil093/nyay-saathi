@@ -1,0 +1,6 @@
+{
+  "name": "Nyay Saathi",
+  "description": "Police Procedure and Evidence Companion under BNS, BNSS, and BSA 2023 for Maharashtra Police. Offline-first, bilingual (Marathi/English).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

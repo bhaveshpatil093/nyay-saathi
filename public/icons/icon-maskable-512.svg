@@ -1,0 +1,35 @@
+<svg viewBox="0 0 512 512" width="512" height="512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background for maskable squircle / circle cropping -->
+  <rect width="512" height="512" fill="#0B2545" />
+
+  <!-- Shield and Scales scaled to safe zone (centered at 256, 256 with 20% safe padding) -->
+  <g transform="translate(256, 256) scale(0.38) translate(-512, -450)">
+    <!-- Shield path -->
+    <path
+      d="M512 130 L765 222 V410 C765 515 655 585 512 648 C369 585 259 515 259 410 V222 Z"
+      fill="#13315C"
+      stroke="#FF9933"
+      stroke-width="20"
+    />
+
+    <!-- White strokes (scales of justice) -->
+    <line x1="512" y1="235" x2="512" y2="500" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+    <line x1="400" y1="290" x2="624" y2="290" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+    <line x1="400" y1="290" x2="352" y2="385" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+    <line x1="400" y1="290" x2="448" y2="385" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+    <line x1="624" y1="290" x2="576" y2="385" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+    <line x1="624" y1="290" x2="672" y2="385" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+    <line x1="440" y1="505" x2="584" y2="505" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" />
+
+    <!-- Saffron circle at fulcrum -->
+    <circle cx="512" cy="225" r="22" fill="#FF9933" />
+
+    <!-- Saffron scale pans -->
+    <path d="M340 385 H460 A60 48 0 0 1 340 385 Z" fill="#FF9933" />
+    <path d="M564 385 H684 A60 48 0 0 1 564 385 Z" fill="#FF9933" />
+
+    <!-- Bottom tricolor accent -->
+    <rect x="280" y="740" width="464" height="36" rx="18" fill="#13315C" stroke="#FF9933" stroke-width="6" />
+    <line x1="320" y1="758" x2="704" y2="758" stroke="#138808" stroke-width="10" stroke-linecap="round" />
+  </g>
+</svg>

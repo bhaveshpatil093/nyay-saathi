@@ -1,0 +1,81 @@
+{
+  "name": "Nyay Saathi",
+  "short_name": "Nyay Saathi",
+  "description": "Police Procedure and Evidence Companion",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0B2545",
+  "background_color": "#0B2545",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Case",
+      "short_name": "New Case",
+      "description": "Register a new investigation case and FIR facts",
+      "url": "./#/cases/new",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Add Evidence",
+      "short_name": "Add Evidence",
+      "description": "Log new electronic or physical evidence with SHA-256 hash",
+      "url": "./#/evidence/new",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Deadlines",
+      "short_name": "Deadlines",
+      "description": "Track statutory remand and chargesheet deadlines under BNSS",
+      "url": "./#/deadlines",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
